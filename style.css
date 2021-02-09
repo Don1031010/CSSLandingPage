@@ -44,14 +44,18 @@ p {
 }
 
 .banner .content p {
-	font-size: 1em;
+	font-size: 1.1em;
 	color: #fff;
+	margin-top: 30px;
 }
 
+.banner .btn {
+	margin-top: 120px;
+}
 .btn {
 	font-size: 1em;
-	color: rgb(231, 209, 5);
-	border: 3px solid rgb(231, 209, 5);
+	color: #ff0157;
+	border: 3px solid #ff0157;
 	border-radius: 9px;
 	/* background: #ff0157; */
 	display: inline-block;
@@ -123,6 +127,7 @@ header.sticky .navigation li a {
 header .navigation li a:hover {
 	/* color: rgb(231, 209, 5); */
 	color: #ff0157;
+	/* font-weight: 500; */
 }
 
 section {
@@ -145,12 +150,13 @@ section {
 	color: #111;
 	font-size: 2em;
 	font-weight: 300;
+	letter-spacing: 5px;
 }
 
 .titleText span {
 	color: #ff0157;
-	font-weight: 700;
-	font-size: 1.5em;
+	font-weight: 500;
+	/* font-size: 1.5em; */
 }
 
 .row .col50 .imgBx {
@@ -177,28 +183,34 @@ section {
 	flex-direction: column;
 }
 
-.menu .content {
+.medical {
+	background-color:bisque
+}
+
+.medical .content {
 	display: flex;
 	justify-content: center;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	flex-wrap: wrap;
 	margin-top: 40px;
 }
 
-.menu .content .box {
+.medical .content .box {
 	width: 340px;
 	margin: 20px;
 	border: 15px solid #fff;
 	box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+	background-color: white;
+
 }
 
-.menu .content .box .imgBx {
+.medical .content .box .imgBx {
 	position: relative;
 	width: 100%;
 	height: 300px;
 }
 
-.menu .content .box .imgBx img {
+.medical .content .box .imgBx img {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -206,63 +218,16 @@ section {
 	height: 100%;
 	object-fit: cover;
 }
-.menu .content .box .text {
+.medical .content .box .text {
 	padding: 15px 0 5px;
 }
 
-.menu .content .box .text h3 {
+.medical .content .box .text h3 {
 	font-weight: 400;
 	color: #111;
 }
 
-.expert .content {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	flex-direction: row-reverse;
-	margin-top: 40px;
-}
-
-.expert .content .box {
-	width: 250px;
-	margin: 15px;
-}
-
-.expert .content .box .imgBx {
-	position: relative;
-	width: 100%;
-	height: 300px;
-}
-
-.expert .content .box .imgBx img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
-.expert .content .box .text {
-	padding: 15px 0 5px;
-}
-
-.expert .content .box h3 {
-	font-weight: 400;
-	color: #111;
-}
-
-/* testimonial section */
-.testimonials {
-	background: url(img/pics/bg2.jpg);
-	background-size: cover;
-}
-
-.white .titleText, .white p {
-	color: #fff;
-}
-
-.testimonials .content {
+.travel .content {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -270,7 +235,54 @@ section {
 	margin-top: 40px;
 }
 
-.testimonials .content .box {
+.travel .content .box {
+	width: 250px;
+	margin: 15px;
+}
+
+.travel .content .box .imgBx {
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+
+.travel .content .box .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.travel .content .box .text {
+	padding: 15px 0 5px;
+}
+
+.travel .content .box h3 {
+	font-weight: 400;
+	color: #111;
+}
+
+/* testimonial section */
+.blog {
+	background: url(img/pics/sunset.jpg);
+	background-size: cover;
+}
+
+.white .titleText, .white p {
+	color: #fff;
+}
+
+.blog .content {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-top: 40px;
+}
+
+.blog .content .box {
 	width: 340px;
 	margin: 20px;
 	padding: 40px;
@@ -281,7 +293,7 @@ section {
 	flex-direction: column;
 }
 
-.testimonials .content .box .imgBx {
+.blog .content .box .imgBx {
 	position: relative;
 	width: 80px;
 	height: 80px;
@@ -290,7 +302,7 @@ section {
 	overflow: hidden;
 }
 
-.testimonials .content .box .imgBx img {
+.blog .content .box .imgBx img {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -299,17 +311,17 @@ section {
 	object-fit: cover;
 }
 
-.testimonials .content .box .text {
+.blog .content .box .text {
 	text-align: center;
 
 }
 
-.testimonials .content .box .text p {
+.blog .content .box .text p {
 	color: #666;
 	font-style: italic;
 }
 
-.testimonials .content .box .text h3 {
+.blog .content .box .text h3 {
 	margin-top: 20px;
 	color: #111;
 	font-style: 1em;
@@ -320,7 +332,7 @@ section {
 /* contact section */
 
 .contact {
-	background: url(img/pics/bg3.jpg);
+	background: url(img/pics/cafe.jpg) center center;
 	background-size: cover;
 }
 
