@@ -27,7 +27,10 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url(img/pics/rainbow-bridge.jpg) no-repeat center center fixed;
+	/* background: url(img/houses/pexels-james-wheeler-417074.jpg) no-repeat center center fixed; */
+	background: url(img/houses/pexels-vecislavas-popa-1571463.jpg) no-repeat center center fixed;
+	/* background: url(img/houses/pexels-mark-mccammon-1080696.jpg) no-repeat center center fixed; */
+	/* background: url(img/pics/rainbow-bridge.jpg) no-repeat center center fixed; */
 	background-size:cover;
 	/* background-repeat: no-repeat; */
 }
@@ -41,12 +44,14 @@ p {
 	font-size: 4em;
 	color: #fff;
 	letter-spacing: 6px;
+	text-shadow: 2px 2px 4px black;
 }
 
 .banner .content p {
-	font-size: 1.1em;
+	font-size: 1.2em;
 	color: #fff;
 	margin-top: 30px;
+	text-shadow: 1px 1px 2px black;
 }
 
 .banner .btn {
@@ -81,11 +86,12 @@ header {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0));
 	transition: 0.5s;
 }
 
 header.sticky {
-	background: #fff;
+	background: rgba(255,255,255,0.96);
 	padding: 10px 100px;
 	box-shadow: 0 5px 20px rgba(0,0,0,0.05);
 }
