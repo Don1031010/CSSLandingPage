@@ -27,8 +27,14 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* background: url(img/houses/pexels-vincent-rivaud-2227832.jpg) no-repeat center center fixed; */
+	/* background: url(img/houses/pexels-curtis-adams-3773582.jpg) no-repeat center center fixed; */
+	/* pool */
+	background: url(img/houses/pexels-thorsten-technoman-338504.jpg) no-repeat center center fixed;
+	/* coffe, flowers and books */
+	/* background: url(img/houses/pexels-thought-catalog-904616.jpg) no-repeat center center fixed; */
+	/* background: url(img/houses/pexels-pixabay-276551.jpg) no-repeat center center fixed; */
 	/* background: url(img/houses/pexels-james-wheeler-417074.jpg) no-repeat center center fixed; */
-	background: url(img/houses/pexels-vecislavas-popa-1571463.jpg) no-repeat center center fixed;
 	/* background: url(img/houses/pexels-mark-mccammon-1080696.jpg) no-repeat center center fixed; */
 	/* background: url(img/pics/rainbow-bridge.jpg) no-repeat center center fixed; */
 	background-size:cover;
@@ -137,7 +143,12 @@ header .navigation li a:hover {
 }
 
 section {
-	padding: 100px;
+	padding: 70px;
+	margin: 0 auto;
+}
+
+section.about, section.medical {
+	max-width: 1400px;
 }
 
 .row {
@@ -157,6 +168,8 @@ section {
 	font-size: 2em;
 	font-weight: 300;
 	letter-spacing: 5px;
+	margin-bottom: 20px;
+
 }
 
 .titleText span {
@@ -190,7 +203,7 @@ section {
 }
 
 .medical {
-	background-color:bisque
+	/* background-color:bisque */
 }
 
 .medical .content {
@@ -272,8 +285,8 @@ section {
 
 /* testimonial section */
 .blog {
-	background: url(img/pics/sunset.jpg);
-	background-size: cover;
+	/* background: url(img/pics/sunset.jpg);
+	background-size: cover; */
 }
 
 .white .titleText, .white p {
